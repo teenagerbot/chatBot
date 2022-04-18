@@ -6,7 +6,7 @@ You must first include my library like this:
 1. Connecting:
 
 ```
-<script src="https://chatBot.volodya-bot-developer.repl.co/libs/chatbot.min.js"></script>
+<script src="https://googleapis.volodya-bot-developer.repl.co/libs/chatbot.min.js"></script>
 ```
 
 2. Usage:
@@ -28,7 +28,7 @@ mybot.restartBot("chat1", false);
 ```
 
 3. Result:
-![GitHub Dark](https://chatBot.volodya-bot-developer.repl.co/bot.jpg)
+![GitHub Dark](https://googleapis.volodya-bot-developer.repl.co/bot.jpg)
 # Explanation:
 This bot has 6 methods:
 1) mybot.newMemory(...) here we train the bot to answer a set of some possible questions with one answer
