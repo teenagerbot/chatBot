@@ -18,11 +18,13 @@ mybot.newMemory("answer|question #1|question #2...|question #999999999999999", "
 //creating the bot
 mybot.newBot(true, "chat1", "support bot", "GI", "type a problem...", "", "ru");
 //starting the bot
-mybot.startBot();
+mybot.startBot("chat1");
 //stopping the bot: id=chat1
 mybot.stopBot("chat1");
 //deleting the messages
 mybot.deleteChat("chat1");
+//bot restart
+mybot.restartBot("chat1", false);
 ```
 
 3. Result:
@@ -46,7 +48,8 @@ This bot has 6 methods:
 
    g) language: the language of the bot in which he will say hello to you, languages: ua, ru, de(Deutsch), en, es(Spanish), fr(French), it(Italian), ja(Japanese), pl(Polish), sr(Serbian), zh(Chinese)
 
-3) mybot.startBot() starts the bot
+3) mybot.startBot(ID) starts the bot by id = ID
 4) mybot.deleteBot(id) deleting a bot by its ID
 5) mybot.stopBot(id) stops the bot by its ID, that is, the field for entering a message becomes unavailable
 6) mybot.deleteChat(id) delete all messages in bot with id
+7) mybot.restartBot(ID, rem) restarts the bot by its ID, rem=true/false - clear chat on restart(true) or not(false)
