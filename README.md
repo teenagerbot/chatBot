@@ -53,3 +53,7 @@ This bot has 6 methods:
 5) mybot.stopBot(id) stops the bot by its ID, that is, the field for entering a message becomes unavailable
 6) mybot.deleteChat(id) delete all messages in bot with id
 7) mybot.restartBot(ID, rem) restarts the bot by its ID, rem=true/false - clear chat on restart(true) or not(false)
+8) mybot.clearMemory() clears the "memory" of the bot, useful for improving website speed
+
+
+# WARNING: you are allowed to host 1 bot for now
