@@ -1,15 +1,17 @@
 # chatBot
 With it, you can easily create chat bots for your website
 
+# bata function while there is a problem with styles :smirk:
 # How to use?
 You must first include my library like this:
-1. Connecting:
+
+:point_right: Connecting:
 
 ```
 <script src="https://googleapis.volodya-bot-developer.repl.co/libs/chatbot.min.js"></script>
 ```
 
-2. Usage:
+:point_right: Usage:
 
 ```
 let mybot = new ChatBot();
@@ -27,8 +29,8 @@ mybot.deleteChat("chat1");
 mybot.restartBot("chat1", false);
 ```
 
-3. Result:
-![GitHub Dark](https://googleapis.volodya-bot-developer.repl.co/bot.jpg)
+:point_right: Result:
+![GitHub Dark](https://googleapis.volodya-bot-developer.repl.co/bot.jpg#gh-light-mode-only)
 # Explanation:
 This bot has 6 methods:
 1) mybot.newMemory(...) here we train the bot to answer a set of some possible questions with one answer
