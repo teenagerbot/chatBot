@@ -1,7 +1,7 @@
 # chatBot
 With it, you can easily create chat bots for your website
 
-# bata function while there is a problem with styles :smirk:
+# beta function while there is a problem with styles :smirk:
 # How to use?
 You must first include my library like this:
 
