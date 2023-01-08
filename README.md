@@ -7,13 +7,13 @@ You must first include my library like this:
 
 :point_right: Connecting:
 
-```
+```html
 <script src="https://googleapis.volodya-bot-developer.repl.co/libs/chatbot.min.js"></script>
 ```
 
 :point_right: Usage:
 
-```
+```js
 let mybot = new ChatBot();
 //bot doctrine: a question is a question that the user can enter to which he will receive the answer "answer"
 mybot.newMemory("answer|question #1|question #2...|question #999999999999999", "answer|question #1|question #2...|question #999999999999", ....);
