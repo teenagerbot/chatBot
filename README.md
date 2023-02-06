@@ -34,7 +34,7 @@ mybot.restartBot("chat1", false);
 # Explanation:
 This bot has 6 methods:
 1) mybot.newMemory(...) here we train the bot to answer a set of some possible questions with one answer
-2) mybot.newBor(time, id, text, button, placeholder, image, language)
+2) mybot.newBot(time, id, text, button, placeholder, image, language)
 
    a) time: has 2 values: true/false, that is, whether or not to display the time of sending messages in the conversation
 
